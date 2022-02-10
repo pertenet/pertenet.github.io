@@ -17,4 +17,11 @@
 		<playlist_url><![CDATA[https://pertenet.github.io/listas/Lista2.xml]]></playlist_url>
 		<icon><![CDATA[https://cdn-icons-png.flaticon.com/512/1042/1042006.png]]></icon>
 	</channel>
+		<channel>
+		<title><![CDATA[lista3]]></title>
+		<logo_30x30><![CDATA[https://previews.123rf.com/images/imagevectors/imagevectors1601/imagevectors160100862/50600482-plat-vert-ic%C3%B4ne-liste-de-contr%C3%B4le-presse-papiers-et-le-cercle-vert.jpg]]></logo_30x30>
+		<description><![CDATA[descripción lista2]]></description>
+		<playlist_url><![CDATA[https://raw.githubusercontent.com/pertenet/listasSSIPTV/main/M%2B.m3u8]]></playlist_url>
+		<icon><![CDATA[https://cdn-icons-png.flaticon.com/512/1042/1042006.png]]></icon>
+	</channel>
 </items>
