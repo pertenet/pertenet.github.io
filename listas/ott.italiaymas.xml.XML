@@ -1,27 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <items>
-	<background-image><![CDATA[https://s1.eestatic.com/2015/02/23/elandroidelibre/el_androide_libre_13259207_179788942_1024x576.jpg]]></background-image>
-	<playlist_name><![CDATA[lista raiz]]></playlist_name>
-	<playlist_logo_30x30><![CDATA[https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png]]></playlist_logo_30x30>
 	<channel>
-		<title><![CDATA[lista1]]></title>
-		<logo_30x30><![CDATA[https://image.freepik.com/vector-gratis/portapapeles-icono-lista-verificacion-portapapeles-icono-lista-verificacion-web-ilustracion-vectorial_100456-2333.jpg]]></logo_30x30>
-		<description><![CDATA[descripción lista1]]></description>
-		<playlist_url><![CDATA[https://pertenet.github.io/listas/Lista1.xml]]></playlist_url>
-		<icon><![CDATA[https://c8.alamy.com/compes/rbgjjd/icono-de-lista-de-control-de-vectores-rbgjjd.jpg]]></icon>
+		<title><![CDATA[Rai 4K]]></title>
+		<logo_30x30><![CDATA[https://bigmikeclub.com/copertinenuove/topitalia/rai4.png]]></logo_30x30>
+		<description></description>
+		<stream_url><![CDATA[http://srv1.novastream.xyz:8080/archstanton/askfeNSZHl/266046]]></stream_url>
+		<icon><![CDATA[https://www.ehcos.com/wp-content/uploads/2017/11/icono-canal-correcta.png]]></icon>
 	</channel>
 	<channel>
-		<title><![CDATA[lista2]]></title>
-		<logo_30x30><![CDATA[https://previews.123rf.com/images/imagevectors/imagevectors1601/imagevectors160100862/50600482-plat-vert-ic%C3%B4ne-liste-de-contr%C3%B4le-presse-papiers-et-le-cercle-vert.jpg]]></logo_30x30>
-		<description><![CDATA[descripción lista2]]></description>
-		<playlist_url><![CDATA[https://pertenet.github.io/listas/Lista2.xml]]></playlist_url>
-		<icon><![CDATA[https://cdn-icons-png.flaticon.com/512/1042/1042006.png]]></icon>
-	</channel>
-		<channel>
-		<title><![CDATA[lista3]]></title>
-		<logo_30x30><![CDATA[https://previews.123rf.com/images/imagevectors/imagevectors1601/imagevectors160100862/50600482-plat-vert-ic%C3%B4ne-liste-de-contr%C3%B4le-presse-papiers-et-le-cercle-vert.jpg]]></logo_30x30>
-		<description><![CDATA[descripción lista2]]></description>
-		<playlist_url><![CDATA[https://raw.githubusercontent.com/pertenet/listasSSIPTV/main/M%2B.m3u8]]></playlist_url>
-		<icon><![CDATA[https://cdn-icons-png.flaticon.com/512/1042/1042006.png]]></icon>
+		<title><![CDATA[Rai 4k RAW]]></title>
+		<logo_30x30><![CDATA[https://bigmikeclub.com/copertinenuove/topitalia/rai4.png]]></logo_30x30>
+		<description></description>
+		<stream_url><![CDATA[http://srv1.novastream.xyz:8080/archstanton/askfeNSZHl/275352]]></stream_url>
+		<icon><![CDATA[https://www.ehcos.com/wp-content/uploads/2017/11/icono-canal-correcta.png]]></icon>
 	</channel>
 </items>
