@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Carousel Theme</title>
+<title>Carousel Theme, Portfolio Page</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -15,7 +15,9 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 <!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script--> 
 <script type="text/javascript" src="js/jquery-ui.min.js"></script> 
 <script type="text/javascript" src="js/showhide.js"></script> 
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
 <script type="text/JavaScript" src="js/jquery.mousewheel.js"></script> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
 
 <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
 
@@ -42,54 +44,26 @@ ddsmoothmenu.init({
 
 </script> 
 
-<!-- Load the CloudCarousel JavaScript file -->
-<script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
- 
-<script type="text/javascript">
-$(document).ready(function(){
-						   
-	// This initialises carousels on the container elements specified, in this case, carousel1.
-	$("#carousel1").CloudCarousel(		
-		{			
-			reflHeight: 40,
-			reflGap: 2,
-			titleBox: $('#da-vinci-title'),
-			altBox: $('#da-vinci-alt'),
-			buttonLeft: $('#slider-left-but'),
-			buttonRight: $('#slider-right-but'),
-			yRadius: 30,
-			xPos: 480,
-			yPos: 32,
-			speed:0.15,
-			autoRotate: "yes",
-			autoRotateDelay: 1500
-		}
-	);
-});
- 
-</script>
-
 </head>
 
-<body id="home">
+<body id="subpage">
 
 <div id="templatemo_header_wrapper">
-	<div id="site_title"><h1>&nbsp;</h1></div>
-     <div id="templatemo_menu" class="ddsmoothmenu">
-        <ul>
-            <li><a href="index.html" class="selected">Inicio</a></li>
+  <div id="templatemo_menu" class="ddsmoothmenu">
+     <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li>
 <ul>
-          <li><span class="top"></span><span class="bottom"></span></li>
+            <li><span class="top"></span><span class="bottom"></span></li>
                     <li><a href="#submenu1">Sub menu 1</a></li>
                     <li><a href="#submenu2">Sub menu 2</a></li>
                     <li><a href="#submenu3">Sub menu 3</a></li>
               	</ul>
             </li>
-            <li><a href="autonomicos.html">Imágenes</a>
+            <li><a href="autonomicos.html" class="selected">Imágenes</a>
                 <ul>
-                    <li><span class="top"></span><span class="bottom"></span></li>
-                    <li><a href="autonomicos.html">Autonómicos</a></li>
+                  <li><span class="top"></span><span class="bottom"></span></li>
+                    <li><a href="#submenu1">Autonómicos</a></li>
                     <li><a href="#submenu2">N. Generalistas</a></li>
                     <li><a href="#submenu3">N. Cine/Series/Infa</a></li>
                     <li><a href="#submenu4">N. Deportes</a></li>
@@ -98,8 +72,8 @@ $(document).ready(function(){
                     <li><a href="#submenu7">Int. Generalistas</a></li>
 					<li><a href="#submenu8">Int. Cine/Series</a></li>
                     <li><a href="#submenu9">Int. Deportes</a></li>
-					<li><a href="int_musica.html">Int. Música</a></li>
-					<li><a href="#submenu11">Int. Otros</a></li>
+					<li><a href="#submenu10">Int. Música</a></li>
+				  <li><a href="#submenu11">Int. Otros</a></li>
               	</ul>
             </li>
             <li></li>
@@ -109,28 +83,27 @@ $(document).ready(function(){
     </div> <!-- end of templatemo_menu -->
     <div class="cleaner"></div>
 </div>	<!-- END of templatemo_header_wrapper -->
-<div id="templatemo_slider">
-	<!-- This is the container for the carousel. -->
-    <div id = "carousel1" style="width:960px; height:280px;background:none;overflow:scroll; margin-top: 20px">            
-        <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
-        <!-- You can place links around these images -->
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/01.png" alt="CSS Templates 1" title="Website Templates 1" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/02.png" alt="CSS Templates 2" title="Website Templates 2" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/03.png" alt="CSS Templates 3" title="Website Templates 3" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/04.png" alt="CSS Templates 4" title="Website Templates 4" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/05.png" alt="Flash Templates 1" title="Flash Templates 1" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/06.png" alt="Flash Templates 2" title="Flash Templates 2" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/07.png" alt="Flash Templates 3" title="Flash Templates 3" /></a>
-        <a href="#" rel="lightbox"><img class="cloudcarousel" src="imagenes/carrusel/08.png" alt="Flash Templates 4" title="Flash Templates 4" /></a>
-    </div>
-    
-    <!-- Define left and right buttons. -->
-    <center>
-    <input id="slider-left-but" type="button" value="" />
-    <input id="slider-right-but" type="button" value="" />
-    </center>
+
+<div id="templatemo_main">
+
+			<h2>Int. Música.</h2>
+            
+  <div class="col one_fourth gallery_box"><img src="imagenes/int_musica/club-mtv.png" width="184" height="120" alt=""/>
+    <h5>Club MTV</h5>
 </div>
+<div class="col one_fourth gallery_box"><img src="imagenes/int_musica/retro.png" width="184" height="120" alt=""/>
+    <h5>Retro</h5>
+  </div>
+            <div class="col one_fourth gallery_box"><img src="imagenes/int_musica/music top.png" width="184" height="120" alt=""/>
+              <h5>Music Top</h5>
+</div>
+  <div class="col one_fourth gallery_box"><img src="imagenes/int_musica/mtv_hits.png" width="184" height="120" alt=""/>
+              <h5>MTV Hits</h5>
+            </div>
+  <div class="cleaner"></div>
+</div> 
 <!-- END of templatemo_main -->
+
 <!-- END of tempatemo_bottom_wrapper -->
 
 <div id="templatemo_footer_wrapper">
