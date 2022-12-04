@@ -633,6 +633,10 @@ p.position {
 }
 
 .one_fourth { 
+	width: 200px; 
+}
+
+.ancho_iconos { 
 	width: 100px; 
 }
 
